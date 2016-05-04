@@ -1,0 +1,19 @@
+24 of 24 unignored mutations are tested (100%). 3 mutations were ignored.
+/app/app.js:14:13 Removed var descendingNumbers = start; -> SURVIVED
+/app/app.js:15:13 Removed for (var i = start - 1; i >= stop; i--) { descendingNumbers = descendingNumbers + ' ' + i; } -> SURVIVED
+/app/app.js:18:13 Removed return descendingNumbers; -> SURVIVED
+/app/app.js:11:34 Replaced 'number' with "MUTATION!" -> SURVIVED
+/app/app.js:11:62 Replaced 'number' with "MUTATION!" -> SURVIVED
+/app/app.js:15:31 Replaced  -  with + -> SURVIVED
+/app/app.js:15:34 Replaced 1 with 2 -> SURVIVED
+/app/app.js:16:17 Removed descendingNumbers = descendingNumbers + ' ' + i; -> SURVIVED
+/app/app.js:16:60 Replaced  +  with - -> SURVIVED
+/app/app.js:16:54 Replaced  +  with - -> SURVIVED
+/app/app.js:16:57 Replaced ' ' with "MUTATION!" -> SURVIVED
+13 of 24 unignored mutations are tested (54%). 3 mutations were ignored.
+24 of 24 unignored mutations are tested (100%). 3 mutations were ignored.
+24 of 24 unignored mutations are tested (100%). 3 mutations were ignored.
+/app/app.js tests fail without mutations
+/app/app.js:9:51 Replaced  ||  with && -> SURVIVED
+/app/app.js:13:25 Replaced  >  with >= -> SURVIVED
+48 of 50 unignored mutations are tested (96%). 3 mutations were ignored.
